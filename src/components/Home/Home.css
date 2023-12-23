@@ -1,0 +1,314 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    background-color: #212421;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 65px;
+}
+.company{
+    width: 20vw;
+    /* border: 2px solid black; */
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 2rem;
+    opacity: 1;
+    font-weight: 150;
+    font-family: Proxima Nova Light,sans-serif;
+}
+.x{
+    font-size: 2.2rem;
+}
+.right{
+    display: flex;
+    flex-direction: row-reverse;
+    width: fit-content;
+    /* border: 2px solid black; */
+    margin-right: 140px;
+    font-weight: 700;
+    color: #f5f5f5;
+    font-family: Proxima Nova Light,sans-serif;
+    font-size: 0.8rem;
+}
+.right div{
+    margin: 20px;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 58%;
+    font-family: Proxima Nova Bold,sans-serif;
+    align-items: center;
+    color: rgba(38, 50, 56, .84);
+    color: linear-gradient(to bottom right,#93c5fd,#fff);
+}
+h1{
+    font-size: 3.4rem;
+}
+.Enabling{
+    font-size: 80px;
+    text-align: center;
+    overflow-wrap: break-word;
+    width: 100vw;
+    font-family: Proxima Nova Bold,sans-serif;
+    height: 40vh;
+    color: rgba(38, 50, 56, .84);
+}
+.login{
+    cursor: pointer;
+}
+.about{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes text-reveal {
+    0% {color: #fff;}
+    20%{color: #93d4fd;}
+    60%{color: #93d4fe;} 
+    80%{color: #93d7fe;}
+    100%{color: #93c5fd;}  
+}
+
+.animation1{
+    animation: 4s ease 0s 1 normal forwards running text-reveal;
+}
+.animation2{
+    animation: 4s ease 0.06s 1 normal forwards running text-reveal;
+}
+.animation3{
+    animation: 4s ease 0.12s 1 normal forwards running text-reveal;
+}
+
+
+.animation4{
+    animation: 4s ease 0.24s 1 normal forwards running text-reveal;
+}
+.animation5{
+    animation: 4s ease 0.3s 1 normal forwards running text-reveal;
+}
+.animation6{
+    animation: 4s ease 0.36s 1 normal forwards running text-reveal;
+}
+.animation7{
+    animation: 4s ease 0.42s 1 normal forwards running text-reveal;
+}
+
+
+
+.animation8{
+    animation: 4s ease 0.54s 1 normal forwards running text-reveal;
+}
+.animation9{
+    animation: 4s ease 0.6s 1 normal forwards running text-reveal;
+}
+.animation10{
+    animation: 4s ease 0.66s 1 normal forwards running text-reveal;
+}
+.animation11{
+    animation: 4s ease 0.72s 1 normal forwards running text-reveal;
+}
+.animation12{
+    animation: 4s ease 0.78s 1 normal forwards running text-reveal;
+}
+
+
+.animation13{
+    animation: 4s ease 0.9s 1 normal forwards running text-reveal;
+}
+.animation14{
+    animation: 4s ease 0.96s 1 normal forwards running text-reveal;
+}
+.animation15{
+    animation: 4s ease 1.08s 1 normal forwards running text-reveal;
+}
+.animation16{
+    animation: 4s ease 1.14s 1 normal forwards running text-reveal;
+}
+.animation17{
+    animation: 4s ease 1.2s 1 normal forwards running text-reveal;
+}
+.animation18{
+    animation: 4s ease 1.26s 1 normal forwards running text-reveal;
+}.animation19{
+    animation: 4s ease 1.32s 1 normal forwards running text-reveal;
+}
+.animation20{
+    animation: 4s ease 1.38s 1 normal forwards running text-reveal;
+}
+
+
+
+.animation21{
+    animation: 4s ease 1.5s 1 normal forwards running text-reveal;
+}.animation22{
+    animation: 4s ease 1.56s 1 normal forwards running text-reveal;
+}
+.animation23{
+    animation: 4s ease 1.62s 1 normal forwards running text-reveal;
+}
+.animation24{
+    animation: 4s ease 1.68s 1 normal forwards running text-reveal;
+}.animation25{
+    animation: 4s ease 1.74s 1 normal forwards running text-reveal;
+}
+
+
+.animation26{
+    animation: 4s ease 1.86s 1 normal forwards running text-reveal;
+}
+.animation27{
+    animation: 4s ease 1.92s 1 normal forwards running text-reveal;
+}.animation28{
+    animation: 4s ease 1.98s 1 normal forwards running text-reveal;
+}
+.animation29{
+    animation: 4s ease 2.04s 1 normal forwards running text-reveal;
+}
+.animation30{
+    animation: 4s ease 2.1s 1 normal forwards running text-reveal;
+}.animation31{
+    animation: 4s ease 2.16s 1 normal forwards running text-reveal;
+}
+.animation32{
+    animation: 4s ease 2.22s 1 normal forwards running text-reveal;
+}
+.animation33{
+    animation: 4s ease 2.28s 1 normal forwards running text-reveal;
+}.animation34{
+    animation: 4s ease 2.34s 1 normal forwards running text-reveal;
+}
+.animation35{
+    animation: 4s ease 2.4s 1 normal forwards running text-reveal;
+}
+.animation36{
+    animation: 4s ease 2.46s 1 normal forwards running text-reveal;
+}
+
+
+.animation37{
+    animation: 4s ease 2.58s 1 normal forwards running text-reveal;
+}
+.animation38{
+    animation: 4s ease 2.64s 1 normal forwards running text-reveal;
+}
+.animation39{
+    animation: 4s ease 2.7s 1 normal forwards running text-reveal;
+}.animation40{
+    animation: 4s ease 2.76s 1 normal forwards running text-reveal;
+}
+
+
+
+.animation41{
+    animation: 4s ease 2.88s 1 normal forwards running text-reveal;
+}
+.animation42{
+    animation: 4s ease 2.94s 1 normal forwards running text-reveal;
+}.animation43{
+    animation: 4s ease 3s 1 normal forwards running text-reveal;
+}
+.animation44{
+    animation: 4s ease 3.06s 1 normal forwards running text-reveal;
+}
+.animation45{
+    animation: 4s ease 3.12s 1 normal forwards running text-reveal;
+}.animation46{
+    animation: 4s ease 3.18s 1 normal forwards running text-reveal;
+}
+.animation47{
+    animation: 4s ease 3.24s 1 normal forwards running text-reveal;
+}
+.animation48{
+    animation: 4s ease 3.3s 1 normal forwards running text-reveal;
+}.animation49{
+    animation: 4s ease 3.36s 1 normal forwards running text-reveal;
+}
+.animation50{
+    animation: 4s ease 3.42s 1 normal forwards running text-reveal;
+}
+
+
+.animation51{
+    animation: 4s ease 3.54s 1 normal forwards running text-reveal;
+}.animation52{
+    animation: 4s ease 3.6s 1 normal forwards running text-reveal;
+}
+.animation53{
+    animation: 4s ease 3.66s 1 normal forwards running text-reveal;
+}
+.animation54{
+    animation: 4s ease 3.72s 1 normal forwards running text-reveal;
+}.animation55{
+    animation: 4s ease 3.78s 1 normal forwards running text-reveal;
+}
+.animation56{
+    animation: 4s ease 3.84s 1 normal forwards running text-reveal;
+}
+.animation57{
+    animation: 4s ease 3.9s 1 normal forwards running text-reveal;
+}.animation58{
+    animation: 4s ease 3.96s 1 normal forwards running text-reveal;
+}
+.animation59{
+    animation: 4s ease 4.02s 1 normal forwards running text-reveal;
+}
+.animation60{
+    animation: 4s ease 4.08s 1 normal forwards running text-reveal;
+}.animation61{
+    animation: 4s ease 4.14s 1 normal forwards running text-reveal;
+}
+.animation62{
+    animation: 4s ease 4.2s 1 normal forwards running text-reveal;
+}
+.animation63{
+    animation: 4s ease 4.8s 1 normal forwards running text-reveal;
+}
+
+

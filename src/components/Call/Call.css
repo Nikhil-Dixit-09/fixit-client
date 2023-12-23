@@ -1,0 +1,41 @@
+.call{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #e5e7eb;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+.bottomc{
+    display: flex;
+    flex-direction: row;
+}
+.callTitle{
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-family: Proxima Nova Light,sans-serif;
+}
+.zero{
+    font-weight: 200;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: Proxima Nova Light,sans-serif;
+}
+.percent{
+    font-size: 14px;
+    line-height: 1.25rem;
+    font-weight: 100;
+    font-family: Proxima Nova Light,sans-serif;
+    color: #16A34A;
+}
+.last{
+    font-size: 14px;
+    font-family: Proxima Nova Light,sans-serif;
+    color: #64748B;
+}
